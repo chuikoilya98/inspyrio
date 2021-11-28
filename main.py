@@ -17,7 +17,4 @@ def receive_update():
 
 
 if __name__ == '__main__':
-    #os.system(pt.abspath('ngrok'))
     app.run(host='0.0.0.0', port=80)
-    os.system('./ngrok http 80')
-

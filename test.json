@@ -1,0 +1,30 @@
+{
+    "update_id":118381796,
+    "message":{
+       "message_id":634,
+       "from":{
+          "id":331392389,
+          "is_bot":false,
+          "first_name":"Ilya",
+          "last_name":"Chuyko",
+          "username":"ilya_chuiko",
+          "language_code":"ru"
+       },
+       "chat":{
+          "id":331392389,
+          "first_name":"Ilya",
+          "last_name":"Chuyko",
+          "username":"ilya_chuiko",
+          "type":"private"
+       },
+       "date":1638114713,
+       "text":"/start 13 40",
+       "entities":[
+          {
+             "offset":0,
+             "length":6,
+             "type":"bot_command"
+          }
+       ]
+    }
+ }
