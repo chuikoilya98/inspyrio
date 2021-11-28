@@ -9,8 +9,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def receive_update():
-    if request.method == "POST":
-        print(request.json)
+    print(request.json)
     return {"ok": True}
 
 
