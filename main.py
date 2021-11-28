@@ -7,6 +7,8 @@ from io import BytesIO
 
 app = Flask(__name__)
 
+
+
 @app.route("/", methods=["GET", "POST"])
 def receive_update():
     if request.method == "POST":
@@ -15,5 +17,6 @@ def receive_update():
 
 
 if __name__ == '__main__':
+    os.system(pt.abspath('ngrok'))
     app.run(host='0.0.0.0', port=80)
 
