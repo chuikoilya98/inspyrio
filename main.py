@@ -7,9 +7,10 @@ from io import BytesIO
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route("/", methods=["GET", "POST"])
 def receive_update():
-    print(request.json)
+    if request.method == "POST":
+        print(request.json)
     return {"ok": True}
 
 
